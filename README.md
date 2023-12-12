@@ -1,1 +1,3 @@
 # MICS
+
+Author: Suren Poghosyan
