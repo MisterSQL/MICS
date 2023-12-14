@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="box">
+    <h1 style="text-align: center">Company</h1>
+    <div id="content">
+            <h3>Філіал</h3>
+            <div>
+                <p>Добавити філіал: </p>
+                <input id="addFilial">
+
+                <button class="add" data-action="addFilial"  id="buttonFilial">Send</button>
+                <div>
+                    <span style="display: inline-block; margin: 1em 0;" >Обрати феліал: </span>
+                    <select id="selectFilial"></select>
+                </div>
+
+            </div>
+
+            <div>
+                <h3>Департамент</h3>
+                <p>Добавити департамент: </p>
+                <input id="nameDepartament">
+                <button class="add" data-action="addDepartament" id="buttonDepartament">Send</button>
+            </div>
+            <div>
+                <span style="display: inline-block; margin: 1em 0;" >Обрати департамент: </span>
+                <select id="depListId"></select>
+                <button class="remove" data-action="removeDepartament">X</button>
+            </div>
+            <div class="container_group">
+                <h3>Група</h3>
+                <p>Добавити групу: </p>
+                <input id="addGroup">
+                <button class="add" data-action="addGroupList" id="buttonGroup">Send</button>
+            </div>
+            <div>
+                <span style="display: inline-block; margin: 1em 0;" >Обрати групу: </span>
+                <select id="depGroup"></select>
+                <button class="remove" data-action="removeGroup">X</button>
+            </div>
+
+            <div>
+                <h3>Працівник</h3>
+                <p>Добавити працівника: </p>
+                <input id="addEmployer" placeholder="name/profession/salary">
+                <button class="add" data-action="addEmployerList" id="buttonEmployee">Send</button>
+            </div>
+            <div>
+                <span style="display: inline-block; margin: 1em 0;" >Обрати працівника: </span>
+                <select id="depEmploy"></select>
+            </div>
+            <div id="containerEmployee">
+
+            </div>
+    </div>
+</div>
+
+</body>
+</html>
